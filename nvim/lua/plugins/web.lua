@@ -7,6 +7,7 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
+        autotools_ls = {},
         cssls = {},
         glsl_analyzer = {},
         html = {},
