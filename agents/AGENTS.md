@@ -10,21 +10,22 @@
 
 ## Workflow
 
-- Move slowly and work step by step.
-- Make one small change at a time, then pause so I can verify before continuing.
-- Fix any problems you encounter rather than ignoring them, even if it is not related to what you are doing.
+- For repository changes, start by proposing a concise plan for the complete PR and wait for my approval.
+- After approval, create and switch to a new branch with a conventional branch name.
+- Implement one small step at a time, then pause so I can verify before continuing.
+- After each implementation step, provide a one-line conventional commit message I can use.
+- Report unrelated problems, but do not fix them without approval.
 - Do not introduce new dependencies unless necessary.
+- When the PR is finished locally, provide a PR title and concise description ready to paste into GitHub.
 
 ## Git
 
+- Never make changes directly on `main`.
 - Never stage, commit or push changes.
 - Never add yourself, an agent, or an AI as a commit co-author.
-- Never make changes directly on `main`.
-  Before modifying files, create and switch to a new branch with a conventional branch name.
-- After making changes, always provide a one-line conventional commit message I can use.
 
 ## Communication
 
 - Be concise.
+- Explain important tradeoffs.
 - Explain things in clear, simple language that is easy to understand.
-- Explain important trade-offs.
